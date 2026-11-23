@@ -206,13 +206,15 @@ input, textarea, select, button { font: inherit; }
 .hero2 { position: relative; overflow: hidden; background: var(--navy); color: #fff; }
 .hero2 .flag-bg { position: absolute; top: 50%; right: -8%; width: 52%; max-width: 820px; transform: translateY(-50%) skewY(-3deg); -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 55%); mask-image: linear-gradient(to right, transparent 0%, #000 55%); opacity: 0.85; pointer-events: none; }
 @media (min-width: 761px) and (max-width: 1100px) { .hero2 .flag-bg { right: -18%; width: 60%; opacity: 0.6; } }
-.hero2 .container { position: relative; padding-top: 120px; padding-bottom: 128px; }
-.hero2 h1 { margin: 0; max-width: none; font-family: var(--display); font-weight: 800; font-size: clamp(40px, 6.4vw, 92px); line-height: 1.0; letter-spacing: -0.025em; }
-.hero2 .sub { margin: 28px 0 0; max-width: 820px; font-size: clamp(19px, 1.8vw, 24px); line-height: 1.5; color: var(--on-dark); }
-.hero2 .actions { margin-top: 40px; display: flex; flex-wrap: wrap; gap: 14px; }
-.flag-tag { display: inline-flex; align-items: center; gap: 12px; margin: 0 0 28px; font-family: var(--mono); font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--slate-light); }
+.hero2 .container { position: relative; padding-top: 88px; padding-bottom: 96px; }
+.hero2 h1 { margin: 0; max-width: none; font-family: var(--display); font-weight: 800; font-size: clamp(40px, 6.2vw, 84px); line-height: 1.04; letter-spacing: -0.025em; text-wrap: balance; }
+.hero2 h1 .line { display: block; }
+@media (min-width: 700px) { .hero2 h1 .line { white-space: nowrap; } }
+.hero2 .sub { margin: 22px 0 0; max-width: 820px; font-size: clamp(19px, 1.8vw, 24px); line-height: 1.5; color: var(--on-dark); }
+.hero2 .actions { margin-top: 34px; display: flex; flex-wrap: wrap; gap: 14px; }
+.flag-tag { display: inline-flex; align-items: center; gap: 12px; margin: 0 0 22px; font-family: var(--mono); font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--slate-light); }
 .flag-tag img { width: 30px; height: auto; border-radius: 2px; box-shadow: 0 0 0 1px rgba(255,255,255,0.15); }
-@media (max-width: 760px) { .hero2 .flag-bg { width: 120%; right: -40%; opacity: 0.6; } .hero2 .container { padding-top: 80px; padding-bottom: 88px; } }
+@media (max-width: 760px) { .hero2 .container { padding-top: 64px; padding-bottom: 72px; } }
 
 .sec-label { display: flex; align-items: baseline; gap: 16px; margin: 0 0 48px; }
 .sec-label h2 { margin: 0; font-family: var(--display); font-weight: 800; font-size: clamp(30px, 3.4vw, 44px); letter-spacing: -0.015em; }
