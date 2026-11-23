@@ -325,3 +325,7 @@ input, textarea, select, button { font: inherit; }
 .leader img { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; }
 .leader h3 { margin: 0; font-family: var(--display); font-weight: 700; font-size: 30px; }
 html { scroll-padding-top: 16px; }
+.leader { align-items: flex-start; flex-wrap: nowrap; }
+.leader > div { flex: 1; min-width: 0; }
+.leader-bio { margin: 14px 0 0; max-width: 760px; font-size: 17px; line-height: 1.7; color: var(--body); }
+@media (max-width: 700px) { .leader { flex-wrap: wrap; } }
