@@ -254,6 +254,6 @@ input, textarea, select, button { font: inherit; }
 
 /* Contact person */
 .person { display: flex; align-items: center; gap: 18px; margin-top: 32px; }
-.person img { width: 84px; height: 84px; border-radius: 50%; object-fit: cover; border: 3px solid #fff; box-shadow: 0 0 0 1px var(--line); }
+.person img { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid #fff; box-shadow: 0 0 0 1px var(--line); }
 .person .name { margin: 0; font-family: var(--display); font-weight: 700; font-size: 22px; }
 .person + .contact-links { margin-top: 20px; }
