@@ -14,7 +14,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="stylesheet" href="styles.css?v=7">
+<link rel="stylesheet" href="styles.css?v=8">
 <script src="script.js?v=2" defer></script>
 </head>
 <body>
@@ -37,10 +37,12 @@
 
 <main id="main">
 
-<section class="home-hero">
+<section class="hero2">
+  <img class="flag-bg" src="images/flag-tonal.svg" alt="" aria-hidden="true">
   <div class="container">
+    <p class="flag-tag"><img src="images/flag.svg" alt="" width="30" height="16">Reviving American Manufacturing</p>
     <h1>Manufacturing Solutions &amp; Services</h1>
-    <p>On-site commissioning and project management, from design through startup.</p>
+    <p class="sub">On-site commissioning and project management, from design through startup.</p>
     <div class="actions">
       <a class="btn btn-light" href="contact.html">Request a Meeting</a>
       <a class="btn btn-ghost" href="services.html">Our Services</a>
@@ -50,28 +52,31 @@
 
 <section class="section">
   <div class="container">
-    <h2 class="center-head">What We Do</h2>
-    <div class="trio">
-      <div>
+    <div class="sec-label"><h2>What We Do</h2></div>
+    <div class="services3">
+      <a class="svc primary" href="services.html#commissioning" style="text-decoration:none; color:#fff;">
+        <div class="top"><span class="idx">01</span><span class="ico"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><circle cx="12" cy="12" r="5"/><path d="M10 12l1.5 1.5L14.5 10.5"/></svg></span></div>
         <h3>Commissioning</h3>
         <p>On-site installation support, I/O verification, startup, troubleshooting, validation and process optimization.</p>
-      </div>
-      <div>
+      </a>
+      <a class="svc primary" href="services.html#project-management" style="text-decoration:none; color:#fff;">
+        <div class="top"><span class="idx">02</span><span class="ico"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4M7 14h4M7 17h7"/></svg></span></div>
         <h3>Project Management</h3>
         <p>Dedicated project management from design to product qualification, representing OEMs and manufacturers at the plant.</p>
-      </div>
-      <div>
+      </a>
+      <a class="svc" href="services.html#engineering" style="text-decoration:none; color: var(--navy);">
+        <div class="top"><span class="idx">03</span><span class="ico"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 8h4M7 12h10M7 16h6"/><circle cx="16" cy="8" r="1.5"/></svg></span></div>
         <h3>Engineering</h3>
         <p>Electrical enclosure design, PLC/HMI programming and integration of equipment, instrumentation and controls.</p>
-      </div>
+      </a>
     </div>
   </div>
 </section>
 
 <section class="section section-gray">
   <div class="container">
-    <h2 class="center-head">Who We Support</h2>
-    <div class="trio">
+    <div class="sec-label"><h2>Who We Support</h2></div>
+    <div class="support3">
       <div>
         <h3>Systems Integrators</h3>
         <p>Experienced engineering and field support for integration, automation, commissioning and startup.</p>
