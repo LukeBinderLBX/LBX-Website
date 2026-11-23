@@ -289,3 +289,13 @@ input, textarea, select, button { font: inherit; }
 .hero-split2 h1 .nw { white-space: nowrap; }
 .hero-text { flex: 1 1 440px; }
 .hero-art { flex: 1.15 1 460px; }
+
+/* About banner: vertical flag on the right */
+.hero-flag { position: relative; overflow: hidden; }
+.hero-flag .vflag { position: absolute; top: 0; right: 0; height: 100%; width: auto; aspect-ratio: 1000 / 1900; display: block; }
+.hero-flag .container { position: relative; }
+.hero-flag h1, .hero-flag .lede { max-width: min(760px, calc(100% - 260px)); }
+@media (max-width: 760px) {
+  .hero-flag .vflag { opacity: 0.18; }
+  .hero-flag h1, .hero-flag .lede { max-width: none; }
+}
