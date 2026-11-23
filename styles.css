@@ -187,4 +187,5 @@ input, textarea, select, button { font: inherit; }
 .core-card li::before { content: "—"; color: var(--slate-light); }
 @media (max-width: 600px) { .core-card { padding: 32px 24px; } }
 .sub-head { margin: 72px 0 24px; font-family: var(--display); font-weight: 700; font-size: 22px; }
-.grid-4 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.grid-4 { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+@media (min-width: 601px) and (max-width: 900px) { .grid-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
