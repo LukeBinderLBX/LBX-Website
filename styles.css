@@ -257,3 +257,13 @@ input, textarea, select, button { font: inherit; }
 .person img { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 3px solid #fff; box-shadow: 0 0 0 1px var(--line); }
 .person .name { margin: 0; font-family: var(--display); font-weight: 700; font-size: 22px; }
 .person + .contact-links { margin-top: 20px; }
+
+/* One-line hero subline on wider screens */
+.hero2 .sub { max-width: none; }
+@media (min-width: 900px) { .hero2 .sub { white-space: nowrap; font-size: clamp(18px, 1.7vw, 22px); } }
+
+/* Align titles and paragraphs across What We Do cards */
+.services3 { align-items: stretch; }
+.svc { display: grid; grid-template-rows: subgrid; grid-row: span 3; row-gap: 0; align-content: start; }
+.svc h3 { align-self: end; }
+@supports not (grid-template-rows: subgrid) { .svc h3 { min-height: 2.3em; display: flex; align-items: flex-end; } }
