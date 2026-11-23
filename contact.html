@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — LBX Technologies</title>
+<meta name="description" content="Request a meeting with LBX Technologies. Email Luke@LBXtechnologies.com or call 973-970-0784.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="logo" href="index.html" aria-label="LBX Technologies home"><span class="logo-mark">LBX</span><span class="logo-sub">TECHNOLOGIES</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="industries.html">Industries</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero">
+  <div class="container">
+    <p class="eyebrow">Contact</p>
+    <h1>Request a meeting.</h1>
+    <p class="lede">Submit the inquiry form and we'll follow up to schedule a time to discuss your engineering, integration and commissioning needs.</p>
+  </div>
+</section>
+
+<section class="section section-gray">
+  <div class="container split">
+    <div class="narrow stack">
+      <div class="info-card">
+        <p class="eyebrow" style="font-size: 12px; margin-bottom: 10px;">Email</p>
+        <a href="mailto:Luke@LBXtechnologies.com">Luke@LBXtechnologies.com</a>
+      </div>
+      <div class="info-card">
+        <p class="eyebrow" style="font-size: 12px; margin-bottom: 10px;">Phone</p>
+        <a href="tel:+19739700784">973-970-0784</a>
+      </div>
+      <div class="info-dark">
+        <h2>What happens next</h2>
+        <p>We review your inquiry, reach out to set up a meeting, and come prepared with questions about your scope, schedule and site.</p>
+      </div>
+    </div>
+    <div class="wide form-card">
+      <form class="form" action="https://formsubmit.co/Luke@LBXtechnologies.com" method="POST">
+        <h2>Inquiry form</h2>
+        <input type="hidden" name="_subject" value="New meeting request from lbxtechnologies.com">
+        <input type="hidden" name="_next" value="https://lbxtechnologies.com/thanks.html">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="form-row">
+          <label>First name *<input type="text" name="first_name" required autocomplete="given-name"></label>
+          <label>Last name *<input type="text" name="last_name" required autocomplete="family-name"></label>
+          <label>Email *<input type="email" name="email" required autocomplete="email"></label>
+          <label>Phone<input type="tel" name="phone" autocomplete="tel"></label>
+        </div>
+        <label>Company<input type="text" name="company" autocomplete="organization"></label>
+        <label>Service of interest
+          <select name="service">
+            <option value="">Select a service</option>
+            <option>Engineering</option>
+            <option>Commissioning</option>
+            <option>System Integration</option>
+            <option>Project Management</option>
+            <option>Process &amp; Mechanical Support</option>
+            <option>CQV &amp; Documentation</option>
+            <option>Not sure yet</option>
+          </select>
+        </label>
+        <label>Tell us about your project *<textarea name="message" rows="6" required></textarea></label>
+        <button class="btn btn-amber" type="submit">Submit inquiry</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="index.html" aria-label="LBX Technologies home"><span class="logo-mark">LBX</span><span class="logo-sub">TECHNOLOGIES</span></a>
+        <p>Manufacturing solutions and services — engineering, integration and commissioning.</p>
+      </div>
+      <nav class="footer-col" aria-label="Footer">
+        <p class="label">COMPANY</p>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="industries.html">Industries</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="footer-col">
+        <p class="label">CONTACT</p>
+        <a href="mailto:Luke@LBXtechnologies.com">Luke@LBXtechnologies.com</a>
+        <a href="tel:+19739700784">973-970-0784</a>
+      </div>
+    </div>
+    <p class="copyright">© 2026 LBX Technologies. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
