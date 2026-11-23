@@ -14,7 +14,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="stylesheet" href="styles.css?v=5">
+<link rel="stylesheet" href="styles.css?v=6">
 <script src="script.js?v=2" defer></script>
 </head>
 <body>
@@ -37,142 +37,63 @@
 
 <main id="main">
 
-<section class="hero">
-  <div class="container hero-split">
-    <div class="main">
-      <p class="eyebrow">Engineering firm · On-site commissioning · Project management</p>
-      <h1>On-site commissioning &amp; project management for manufacturing.</h1>
-      <p class="lede">We're the engineers in the plant when it matters most — leading projects and bringing equipment online through installation, startup, troubleshooting and validation for manufacturers, OEMs and systems integrators.</p>
-      <div class="actions">
-        <a class="btn btn-light" href="contact.html">Request a Meeting</a>
-        <a class="btn btn-ghost" href="services.html">Explore Services</a>
-      </div>
-    </div>
-    <div class="side lifecycle">
-      <p class="eyebrow" style="color: var(--on-dark-muted); margin-bottom: 8px;">Project lifecycle</p>
-      <ol>
-        <li><span>01</span>Design &amp; engineering</li>
-        <li><span>02</span>Controls &amp; PLC/HMI programming</li>
-        <li><span>03</span>System integration</li>
-        <li><span>04</span>On-site startup &amp; commissioning</li>
-        <li><span>05</span>Validation (FAT/SAT/IQ/OQ/PQ)</li>
-      </ol>
+<section class="home-hero">
+  <div class="container">
+    <h1>Manufacturing Solutions &amp; Services</h1>
+    <p>On-site commissioning and project management, from design through startup.</p>
+    <div class="actions">
+      <a class="btn btn-navy" href="contact.html">Request a Meeting</a>
+      <a class="btn btn-slate" href="services.html">Our Services</a>
     </div>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
-    <div class="section-head">
+    <h2 class="center-head">What We Do</h2>
+    <div class="trio">
       <div>
-        <p class="eyebrow">Our core services</p>
-        <h2 class="h2">On-site, hands-on, accountable from start to finish.</h2>
-        <p class="intro">Commissioning and project management are the heart of what we do. We work on your plant floor, alongside your team, until the system is running and signed off.</p>
+        <h3>Commissioning</h3>
+        <p>On-site installation support, I/O verification, startup, troubleshooting, validation and process optimization.</p>
       </div>
-      <a class="text-link" href="services.html">All services →</a>
-    </div>
-    <div class="core-grid">
-      <article class="core-card">
-        <span class="badge">CORE SERVICE</span>
-        <h3>On-site commissioning</h3>
-        <p>Our engineers are on site from installation to handover, verifying every connection and bringing your equipment up to full production.</p>
-        <ul><li>Installation support</li><li>I/O verification</li><li>Startup &amp; troubleshooting</li><li>Validation (FAT/SAT/IQ/OQ/PQ)</li><li>Process optimization</li><li>Representing OEMs &amp; end users</li></ul>
-        <a class="btn btn-light" href="services.html#commissioning" style="align-self: flex-start; margin-top: 8px;">Commissioning services</a>
-      </article>
-      <article class="core-card">
-        <span class="badge">CORE SERVICE</span>
-        <h3>Project management</h3>
-        <p>One dedicated project manager who owns your project from design to product qualification and represents you at the plant level.</p>
-        <ul><li>Dedicated project lead</li><li>Design through qualification</li><li>Vendor &amp; contractor coordination</li><li>Schedule &amp; scope control</li><li>Plant-level representation</li><li>Documentation &amp; handover</li></ul>
-        <a class="btn btn-light" href="services.html#project-management" style="align-self: flex-start; margin-top: 8px;">Project management services</a>
-      </article>
-    </div>
-    <h3 class="sub-head">Supporting engineering services</h3>
-    <div class="grid grid-4">
-      <article class="card">
-        <div class="icon-tile"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#E8EBEE" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 8h4M7 12h10M7 16h6"/><circle cx="16" cy="8" r="1.5"/></svg></div>
+      <div>
+        <h3>Project Management</h3>
+        <p>Dedicated project management from design to product qualification, representing OEMs and manufacturers at the plant.</p>
+      </div>
+      <div>
         <h3>Engineering</h3>
-        <p>Electrical enclosure design and PLC/HMI development and programming.</p>
-      </article>
-      <article class="card">
-        <div class="icon-tile"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#E8EBEE" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8.5 6h7M7.2 8.2l3.6 7.6M16.8 8.2l-3.6 7.6"/></svg></div>
-        <h3>Integration</h3>
-        <p>Integration of equipment, instrumentation and controls to create fully coordinated, functional manufacturing systems.</p>
-      </article>
-      <article class="card">
-        <div class="icon-tile"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#E8EBEE" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg></div>
-        <h3>Process &amp; Mechanical</h3>
-        <p>Throughput and product quality optimization, process troubleshooting, inspections and audits.</p>
-      </article>
-      <article class="card">
-        <div class="icon-tile"><svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#E8EBEE" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 14l2.5 2.5L16 11"/></svg></div>
-        <h3>CQV &amp; Documentation</h3>
-        <p>FAT, SAT, IQ, OQ and PQ documents generated and executed, ready for qualification.</p>
-      </article>
+        <p>Electrical enclosure design, PLC/HMI programming and integration of equipment, instrumentation and controls.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="section section-gray">
-  <div class="container">
-    <div class="section-head">
-      <div>
-        <p class="eyebrow">Who we support</p>
-        <h2 class="h2">Extra engineering capacity, exactly when your project needs it.</h2>
-        <p class="intro">We plug into your team on site for commissioning and startup, or take ownership of the whole project as your dedicated project manager.</p>
-      </div>
-    </div>
-    <div class="panel-grid">
-      <div>
-        <p class="for">FOR</p>
-        <h3>Systems Integrators</h3>
-        <p>Strengthen your project teams with experienced engineering and field support for equipment integration, automation, commissioning and startup.</p>
-      </div>
-      <div>
-        <p class="for">FOR</p>
-        <h3>OEMs</h3>
-        <p>Expand your engineering and field service capabilities with a trusted partner for controls, integration, commissioning and startup.</p>
-      </div>
-      <div>
-        <p class="for">FOR</p>
-        <h3>Manufacturers</h3>
-        <p>Bring equipment and processes online with hands-on engineering, integration, troubleshooting and commissioning support.</p>
-      </div>
-    </div>
-  </div>
-</section>
+<hr class="rule">
 
 <section class="section">
-  <div class="container split">
-    <div class="narrow">
-      <p class="eyebrow">Industries</p>
-      <h2 class="h2">Built for demanding process environments.</h2>
-      <p class="intro" style="margin-bottom: 28px;">From validated pharma suites to heavy mineral processing, we bring the same disciplined approach to every plant floor.</p>
-      <a class="text-link" href="industries.html">See industries →</a>
-    </div>
-    <div class="wide link-grid">
-      <a href="industries.html#pharma">Pharma &amp; Biotech<span aria-hidden="true">→</span></a>
-      <a href="industries.html#food">Food &amp; Beverage<span aria-hidden="true">→</span></a>
-      <a href="industries.html#plastics">Plastics &amp; Recycling<span aria-hidden="true">→</span></a>
-      <a href="industries.html#chemical">Chemical &amp; Mineral<span aria-hidden="true">→</span></a>
-      <a href="industries.html#rare-earths">Rare Earths<span aria-hidden="true">→</span></a>
-      <a href="industries.html#energy">Energy<span aria-hidden="true">→</span></a>
-    </div>
-  </div>
-</section>
-
-<section class="band-slate">
   <div class="container">
-    <p>Reviving American manufacturing.</p>
-    <a class="btn btn-navy" href="about.html">About LBX</a>
+    <h2 class="center-head">Who We Support</h2>
+    <div class="trio">
+      <div>
+        <h3>Systems Integrators</h3>
+        <p>Experienced engineering and field support for integration, automation, commissioning and startup.</p>
+      </div>
+      <div>
+        <h3>OEMs</h3>
+        <p>A trusted partner to extend your field service team for controls, commissioning and startup.</p>
+      </div>
+      <div>
+        <h3>Manufacturers</h3>
+        <p>Hands-on engineering and project management to bring equipment and processes online.</p>
+      </div>
+    </div>
   </div>
 </section>
 
 <section class="section section-gray">
   <div class="container split">
     <div class="narrow">
-      <p class="eyebrow">Let's connect</p>
-      <h2 class="h2">Tell us about your project.</h2>
+      <h2 class="h2">Let's Connect</h2>
       <p class="intro">Connect with LBX Technologies to discuss your commissioning, project management and engineering needs.</p>
       <div class="contact-links">
         <a href="mailto:Luke@LBXtechnologies.com"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#66717D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Luke@LBXtechnologies.com</a>
@@ -181,6 +102,7 @@
     </div>
     <div class="wide form-card">
       <form class="form" action="https://formsubmit.co/Luke@LBXtechnologies.com" method="POST">
+        <h2>Send a Message</h2>
         <input type="hidden" name="_subject" value="New message from lbxtechnologies.com">
         <input type="hidden" name="_next" value="https://lbxtechnologies.com/thanks.html">
         <input type="hidden" name="_template" value="table">
@@ -191,7 +113,7 @@
         </div>
         <label>Email *<input type="email" name="email" required autocomplete="email"></label>
         <label>Message *<textarea name="message" rows="5" required></textarea></label>
-        <button class="btn btn-navy" type="submit">Send message</button>
+        <button class="btn btn-slate" type="submit">Send</button>
       </form>
     </div>
   </div>
