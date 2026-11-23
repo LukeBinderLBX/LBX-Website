@@ -267,3 +267,20 @@ input, textarea, select, button { font: inherit; }
 .svc { display: grid; grid-template-rows: subgrid; grid-row: span 3; row-gap: 0; align-content: start; }
 .svc h3 { align-self: end; }
 @supports not (grid-template-rows: subgrid) { .svc h3 { min-height: 2.3em; display: flex; align-items: flex-end; } }
+
+/* Banner with system model */
+.hero-split2 { text-align: left; }
+.hero-split2 .container { padding-top: 56px; padding-bottom: 56px; }
+.hero-grid { display: flex; flex-wrap: wrap; align-items: center; gap: 24px 48px; }
+.hero-text { flex: 1 1 400px; min-width: 0; }
+.hero-art { flex: 1.25 1 480px; min-width: 0; }
+.hero-art img { width: 100%; height: auto; display: block; }
+.hero-split2 h1 { font-size: clamp(38px, 4.4vw, 62px); line-height: 1.04; margin: 0; max-width: 560px; }
+.hero-split2 .sub { white-space: normal; max-width: 500px; margin: 22px 0 0; font-size: clamp(18px, 1.6vw, 21px); }
+.hero-split2 .actions { justify-content: flex-start; }
+@media (max-width: 900px) {
+  .hero-split2 { text-align: center; }
+  .hero-split2 h1, .hero-split2 .sub { margin-left: auto; margin-right: auto; }
+  .hero-split2 .actions { justify-content: center; }
+  .hero-art { max-width: 620px; margin: 0 auto; }
+}
