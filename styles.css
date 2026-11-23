@@ -304,3 +304,7 @@ input, textarea, select, button { font: inherit; }
 @media (max-width: 760px) { .hero-flag .vflag { width: 45vw; opacity: 0.18; } .hero-flag h1, .hero-flag .lede { max-width: none; } }
 .hero-flag h1 { max-width: none; white-space: nowrap; }
 @media (max-width: 760px) { .hero-flag h1 { white-space: normal; } }
+/* About flag: original size, softer */
+.hero-flag .vflag { width: auto; height: 100%; aspect-ratio: 1000 / 1900; object-fit: fill; opacity: 0.8; }
+.hero-flag h1, .hero-flag .lede { max-width: min(760px, calc(100% - 260px)); }
+@media (max-width: 760px) { .hero-flag .vflag { opacity: 0.18; } .hero-flag h1, .hero-flag .lede { max-width: none; } }
