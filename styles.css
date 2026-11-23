@@ -168,7 +168,7 @@ input, textarea, select, button { font: inherit; }
 .site-footer .container { padding-top: 64px; padding-bottom: 32px; }
 .footer-top { display: flex; flex-wrap: wrap; gap: 48px; justify-content: space-between; padding-bottom: 40px; border-bottom: 1px solid var(--line-dark); }
 .footer-top p { margin: 0; font-size: 15px; line-height: 1.6; }
-.footer-brand { display: flex; flex-direction: column; gap: 16px; max-width: 320px; }
+.footer-brand { display: flex; flex-direction: column; gap: 16px; max-width: 400px; }
 .footer-brand .logo img { height: 44px; }
 .footer-col { display: flex; flex-direction: column; gap: 4px; }
 .footer-col .label { margin: 0 0 8px; font-family: var(--mono); font-size: 12px; font-weight: 600; letter-spacing: 0.14em; color: var(--on-dark-muted); }
