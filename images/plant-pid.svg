@@ -1,83 +1,83 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1560 640" width="1560" height="640">
 <style>@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&amp;display=swap");.t{font-family:"IBM Plex Mono",monospace;font-size:10.5px;font-weight:500;fill:#0D1B2A;text-anchor:middle}.tag{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:500;fill:#66717D;text-anchor:middle;letter-spacing:.06em}.fl{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:500;fill:#66717D;letter-spacing:.14em}.p{fill:none;stroke:#0D1B2A;stroke-width:2.5;stroke-linejoin:round}.e{fill:#fff;stroke:#0D1B2A;stroke-width:2}.th{fill:none;stroke:#0D1B2A;stroke-width:1.5}.s{fill:none;stroke:#66717D;stroke-width:1.4;stroke-dasharray:6 4}</style>
 <line x1="20" y1="200" x2="1540" y2="200" stroke="#C9D0D7" stroke-width="1.5" stroke-dasharray="10 6"/>
-<text class="fl" x="24" y="192">3RD FLOOR</text>
+
 <line x1="20" y1="390" x2="1540" y2="390" stroke="#C9D0D7" stroke-width="1.5" stroke-dasharray="10 6"/>
-<text class="fl" x="24" y="382">2ND FLOOR</text>
+
 <line x1="20" y1="590" x2="1540" y2="590" stroke="#C9D0D7" stroke-width="1.5" stroke-dasharray="10 6"/>
-<text class="fl" x="24" y="582">1ST FLOOR</text>
+
 <rect class="e" x="550" y="168" width="180" height="18"/>
 <path class="e" d="M550 186 L730 186 L649.0 300 L631.0 300 Z"/>
 <path class="th" d="M640.0 168 V156"/>
-<rect class="e" x="625.0" y="133" width="30" height="22"/><text class="t" x="640.0" y="148">M</text>
+<rect class="e" x="625.0" y="133" width="30" height="22"/>
 <path class="th" d="M640.0 186 L572 198 L636.0 288"/>
 <path d="M574 202 L634.0 284" stroke="#0D1B2A" stroke-width="5" stroke-dasharray="3 5" fill="none"/>
 <path class="p" d="M640.0 300 V314"/>
 <polygon class="e" points="632.0,315 648.0,315 632.0,333 648.0,333"/>
-<text class="tag" x="538" y="240" style="text-anchor:end">BL-101</text>
+
 <path class="th" d="M730 177 H750"/>
-<circle class="e" cx="770" cy="160" r="19"/><text class="t" x="770" y="158">LT</text><text class="t" x="770" y="170">101</text>
+<circle class="e" cx="770" cy="160" r="19"/>
 <path class="p" d="M640 333 V518"/>
 <polygon points="640,430 635,421 645,421" fill="#0D1B2A"/>
 <rect class="e" x="250" y="300" width="200" height="18"/>
 <path class="e" d="M250 318 L450 318 L359.0 540 L341.0 540 Z"/>
 <path class="th" d="M350.0 300 V288"/>
-<rect class="e" x="335.0" y="265" width="30" height="22"/><text class="t" x="350.0" y="280">M</text>
+<rect class="e" x="335.0" y="265" width="30" height="22"/>
 <path class="th" d="M350.0 318 L272 330 L346.0 528"/>
 <path d="M274 334 L344.0 524" stroke="#0D1B2A" stroke-width="5" stroke-dasharray="3 5" fill="none"/>
 <path class="p" d="M350.0 540 V554"/>
 <polygon class="e" points="342.0,555 358.0,555 342.0,573 358.0,573"/>
-<text class="tag" x="238" y="360" style="text-anchor:end">BL-201</text>
+
 <rect class="e" x="1010" y="300" width="200" height="18"/>
 <path class="e" d="M1010 318 L1210 318 L1119.0 540 L1101.0 540 Z"/>
 <path class="th" d="M1110.0 300 V288"/>
-<rect class="e" x="1095.0" y="265" width="30" height="22"/><text class="t" x="1110.0" y="280">M</text>
+<rect class="e" x="1095.0" y="265" width="30" height="22"/>
 <path class="th" d="M1110.0 318 L1032 330 L1106.0 528"/>
 <path d="M1034 334 L1104.0 524" stroke="#0D1B2A" stroke-width="5" stroke-dasharray="3 5" fill="none"/>
 <path class="p" d="M1110.0 540 V554"/>
 <polygon class="e" points="1102.0,555 1118.0,555 1102.0,573 1118.0,573"/>
-<text class="tag" x="1222" y="360" style="text-anchor:start">BL-202</text>
+
 <path class="p" d="M350.0 573 V580 H410.0"/>
 <polygon points="410.0,580 401.0,575 401.0,585" fill="#0D1B2A"/>
-<text class="tag" x="442.0" y="584" style="text-anchor:middle">FILL</text>
+
 <path class="p" d="M1110.0 573 V580 H1170.0"/>
 <polygon points="1170.0,580 1161.0,575 1161.0,585" fill="#0D1B2A"/>
-<text class="tag" x="1202.0" y="584" style="text-anchor:middle">FILL</text>
+
 <path class="th" d="M450 450 H470"/>
-<circle class="e" cx="490" cy="450" r="19"/><text class="t" x="490" y="448">LT</text><text class="t" x="490" y="460">201</text>
+<circle class="e" cx="490" cy="450" r="19"/>
 <path class="th" d="M1010 450 H990"/>
-<circle class="e" cx="970" cy="450" r="19"/><text class="t" x="970" y="448">LT</text><text class="t" x="970" y="460">202</text>
+<circle class="e" cx="970" cy="450" r="19"/>
 <circle class="e" cx="640" cy="546" r="28"/>
 <path class="th" d="M622 546 H658 M640 528 V564 M627 533 L653 559 M653 533 L627 559"/>
 <path class="th" d="M612 546 H588"/>
-<rect class="e" x="558" y="535" width="30" height="22"/><text class="t" x="573" y="550">M</text>
-<text class="tag" x="640" y="584" style="text-anchor:middle">SR-101</text>
-<circle class="e" cx="520" cy="500" r="19"/><text class="t" x="520" y="498">SIC</text><text class="t" x="520" y="510">101</text>
+<rect class="e" x="558" y="535" width="30" height="22"/>
+
+<circle class="e" cx="520" cy="500" r="19"/>
 <path class="s" d="M520 519 V534 H558"/>
 <path class="p" d="M668 546 H700 V270 H730"/>
 <polygon points="700,420 695,429 705,429" fill="#0D1B2A"/>
 <path class="th" d="M722 400 H700"/>
-<circle class="e" cx="742" cy="400" r="19"/><text class="t" x="742" y="398">PT</text><text class="t" x="742" y="410">102</text>
+<circle class="e" cx="742" cy="400" r="19"/>
 <rect class="e" x="730" y="244" width="42" height="52" rx="6"/>
 <path class="s" d="M730 296 L772 244"/>
-<text class="tag" x="751" y="316" style="text-anchor:middle">F-101</text>
+
 <path class="p" d="M772 270 H800"/>
 <rect class="e" x="800" y="250" width="130" height="40" rx="20"/>
 <path class="th" d="M815 270 L832 258 L849 282 L866 258 L883 282 L900 258 L915 270"/>
 <path class="th" d="M840 250 V232 M890 290 V308"/>
-<text class="tag" x="840" y="226" style="text-anchor:middle">CW</text>
-<text class="tag" x="890" y="322" style="text-anchor:middle">CW</text>
-<text class="tag" x="865" y="342" style="text-anchor:middle">E-101</text>
+
+
+
 <path class="p" d="M930 270 H950"/>
 <rect class="e" x="950" y="244" width="42" height="52" rx="6"/>
 <path class="s" d="M950 296 L992 244"/>
-<text class="tag" x="971" y="316" style="text-anchor:middle">F-102</text>
+
 <path class="p" d="M992 270 H1000 V24 H1160 M1000 24 H300"/>
 <polygon points="1000,150 995,159 1005,159" fill="#0D1B2A"/>
-<text class="tag" x="1016" y="140" style="text-anchor:start">N2 LOOP</text>
-<circle class="e" cx="940" cy="222" r="19"/><text class="t" x="940" y="220">TT</text><text class="t" x="940" y="232">103</text>
+
+<circle class="e" cx="940" cy="222" r="19"/>
 <path class="th" d="M940 241 V270"/>
-<circle class="e" cx="780" cy="60" r="19"/><text class="t" x="780" y="58">AT</text><text class="t" x="780" y="70">104</text>
+<circle class="e" cx="780" cy="60" r="19"/>
 <path class="th" d="M780 41 V26"/>
 <path class="p" d="M300 24 V214"/>
 <polygon points="300,150 295,141 305,141" fill="#0D1B2A"/>
@@ -89,6 +89,6 @@
 <rect class="e" x="1138" y="214" width="44" height="56"/>
 <path class="e" d="M1138 270 L1160 292 L1182 270"/>
 <path class="th" d="M1160 292 V300"/>
-<text class="tag" x="260" y="246" style="text-anchor:end">FR-201</text>
-<text class="tag" x="1200" y="246" style="text-anchor:start">FR-202</text>
+
+
 </svg>
