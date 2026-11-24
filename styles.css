@@ -407,3 +407,6 @@ div.leader-bio p { margin: 0 0 14px; }
   .tl-phase li { padding-left: 18px; }
 }
 #partnering .section-head { margin-bottom: 0; }
+/* Industries plant model */
+.plant-figure { margin: 0 0 72px; display: flex; justify-content: center; }
+.plant-figure img { width: 100%; max-width: 820px; height: auto; display: block; }
