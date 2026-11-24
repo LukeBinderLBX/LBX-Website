@@ -338,3 +338,8 @@ div.leader-bio p { margin: 0 0 14px; }
 .dd-sep { display: block; height: 1px; background: #D5DAE0; margin: 6px 12px; }
 @media (max-width: 900px) { .dd-sep { display: none; } }
 .hero-flag .lede + .lede { margin-top: 14px; }
+
+/* consistent banner height */
+.hero-flag { min-height: 430px; display: flex; align-items: center; }
+.hero-flag .container { width: 100%; padding-top: 72px; padding-bottom: 72px; }
+@media (max-width: 760px) { .hero-flag { min-height: 0; } }
