@@ -337,3 +337,4 @@ div.leader-bio p { margin: 0 0 14px; }
 @media (min-width: 760px) { #how-we-work .h2 { white-space: nowrap; } }
 .dd-sep { display: block; height: 1px; background: #D5DAE0; margin: 6px 12px; }
 @media (max-width: 900px) { .dd-sep { display: none; } }
+.hero-flag .lede + .lede { margin-top: 14px; }
