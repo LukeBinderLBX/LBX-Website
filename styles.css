@@ -343,3 +343,5 @@ div.leader-bio p { margin: 0 0 14px; }
 .hero-flag { min-height: 430px; display: flex; align-items: center; }
 .hero-flag .container { width: 100%; padding-top: 72px; padding-bottom: 72px; }
 @media (max-width: 760px) { .hero-flag { min-height: 0; } }
+
+.sub-head-first { margin-top: 0; }
