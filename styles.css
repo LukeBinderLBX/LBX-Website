@@ -335,3 +335,5 @@ div.leader-bio p { margin: 0 0 14px; }
 .mission-text { margin: 20px 0 0; max-width: 760px; font-size: 19px; line-height: 1.6; color: var(--body); }
 #how-we-work .section-head > div { max-width: none; }
 @media (min-width: 760px) { #how-we-work .h2 { white-space: nowrap; } }
+.dd-sep { display: block; height: 1px; background: #D5DAE0; margin: 6px 12px; }
+@media (max-width: 900px) { .dd-sep { display: none; } }
