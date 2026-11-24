@@ -410,3 +410,8 @@ div.leader-bio p { margin: 0 0 14px; }
 /* Industries plant model */
 .plant-figure { margin: 0 0 72px; display: flex; justify-content: center; }
 .plant-figure img { width: 100%; max-width: 820px; height: auto; display: block; }
+/* Industries: P&ID + 3D band */
+.plant-figure { display: none; }
+.viz-band { display: grid; grid-template-columns: 1.7fr 1fr; gap: 40px; align-items: center; margin: 0 0 72px; }
+.viz-band img { width: 100%; height: auto; max-height: 400px; object-fit: contain; display: block; }
+@media (max-width: 900px) { .viz-band { grid-template-columns: 1fr; gap: 24px; } .viz-band .viz-3d { max-width: 460px; margin: 0 auto; } }
