@@ -345,3 +345,7 @@ div.leader-bio p { margin: 0 0 14px; }
 @media (max-width: 760px) { .hero-flag { min-height: 0; } }
 
 .sub-head-first { margin-top: 0; }
+/* section headers on Services */
+.sub-head { margin: 96px 0 32px; font-weight: 800; font-size: clamp(30px, 3.6vw, 46px); line-height: 1.1; letter-spacing: -0.015em; }
+.sub-head::after { content: ""; display: block; width: 56px; height: 4px; background: var(--navy); margin-top: 16px; }
+.sub-head-first { margin-top: 0; }
