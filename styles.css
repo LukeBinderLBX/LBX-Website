@@ -331,3 +331,5 @@ html { scroll-padding-top: 16px; }
 @media (max-width: 700px) { .leader { flex-wrap: wrap; } }
 div.leader-bio p { margin: 0 0 14px; }
 .mission-statement { margin: 0; font-family: var(--display); font-weight: 800; font-size: clamp(28px, 3.2vw, 40px); line-height: 1.15; color: var(--navy); letter-spacing: -0.01em; }
+.mission-statement { font-size: clamp(34px, 4.4vw, 56px); }
+.mission-text { margin: 20px 0 0; max-width: 760px; font-size: 19px; line-height: 1.6; color: var(--body); }
