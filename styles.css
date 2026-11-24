@@ -417,3 +417,7 @@ div.leader-bio p { margin: 0 0 14px; }
 @media (max-width: 900px) { .viz-band { grid-template-columns: 1fr; gap: 24px; } .viz-band .viz-3d { max-width: 460px; margin: 0 auto; } }
 .viz-band { margin: 72px 0 0; }
 .viz-band { margin-top: 72px; padding-top: 72px; border-top: 1px solid #E1E5EA; }
+.viz-head { margin-top: 72px; padding-top: 64px; border-top: 1px solid #E1E5EA; }
+.viz-head .eyebrow { margin-bottom: 8px; }
+.viz-sub { margin: 0; font-size: 17px; color: #3B4A5A; }
+.viz-band { margin-top: 32px; padding-top: 0; border-top: 0; }
