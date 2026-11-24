@@ -13,3 +13,7 @@ Plain HTML and CSS — no build step.
 
 Contact forms post to FormSubmit (formsubmit.co), which emails Luke@LBXtechnologies.com.
 The first submission triggers a one-time activation email that must be confirmed.
+
+## Before launch
+
+Every page has a `<meta name="robots" content="noindex, nofollow">` tag so search engines skip the site while it is in preview. Remove it from all pages when the domain goes live.
