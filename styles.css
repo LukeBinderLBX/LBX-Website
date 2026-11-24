@@ -401,3 +401,8 @@ div.leader-bio p { margin: 0 0 14px; }
   .tl-group { display: block; margin-bottom: 6px; font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--slate, #66717D); }
   .tl-phase h3 { margin-top: 0; }
 }
+@media (min-width: 1001px) {
+  .tl-phase { padding-right: 14px; }
+  .tl-phase ul { font-size: 13.5px; gap: 9px; line-height: 1.35; }
+  .tl-phase li { padding-left: 18px; }
+}
